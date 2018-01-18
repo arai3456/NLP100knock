@@ -1,2 +1,2 @@
-string = 'stressed'
-print(''.join(string)[::-1])
+string = 'パタトクカシーー'
+print((string)[::2])
