@@ -4,11 +4,10 @@
 import sys
 
 def head(f, n):
-  print(f[:n])
-    
+  print(''.join(f[:n]))
 
 
 if __name__ == '__main__':
   f = open('hightemp2.txt').readlines()
-  n = sys.argv[1]
+  n = int(sys.argv[1])
   head(f, n)
